@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="calculator">
+
+        <input type="text" class="calculator-screen" id="result" value="" disabled />
+        
+        <div class="calculator-keys">
+          
+          <button type="button" class="btn" value="+" onclick="dis('+')">+</button>
+          <button type="button" class="btn" value="-" onclick="dis('-')">-</button>
+          <button type="button" class="btn" value='*' onclick="dis('*')">&times;</button>
+          <button type="button" class="btn" value="/" onclick="dis('/')">&divide;</button>
+      
+          <button type="button" class="btn" value="7" onclick="dis('7')">7</button>
+          <button type="button" class="btn" value="8" onclick="dis('8')">8</button>
+          <button type="button" class="btn" value="9" onclick="dis('9')">9</button>
+      
+          <button type="button" class="btn" value="4" onclick="dis('4')">4</button>
+          <button type="button" class="btn" value="5" onclick="dis('5')">5</button>
+          <button type="button" class="btn" value="6" onclick="dis('6')">6</button>
+      
+      
+          <button type="button" class="btn" value="1" onclick="dis('1')">1</button>
+          <button type="button" class="btn" value="2" onclick="dis('2')">2</button>
+          <button type="button" class="btn" value="3" onclick="dis('3')">3</button>
+      
+      
+          <button type="button" class="btn" value="0" onclick="dis('0')">0</button>
+          <button type="button" class="btndecimal" value="." onclick="dis('.')">.</button>
+          <button type="button" class="btn all-clear" value="all-clear" onclick="clr()">AC</button>
+      
+          <button type="button" class="btn equal-sign operator" value="=" onclick="solve()">=</button>
+      
+        </div>
+      </div>
+      <footer>
+        <p>All Right Deserved &copy; Designed By <a class="link" href="http://kerimhanbadur.me" target="_blank">KerimhanBadur</a></p>
+      </footer>
+<script src="script.js"></script>
+</body>
+</html>
