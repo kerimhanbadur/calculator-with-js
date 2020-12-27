@@ -111,7 +111,7 @@ body {
     padding: 20px;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 720px) {
     .calculator {
       top: 325px;
     }
